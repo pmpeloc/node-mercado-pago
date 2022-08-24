@@ -36,9 +36,15 @@
                 cupiditate pariatur maxime?
               </p>
               <hr />
-              <h4>Precio $213.578,00</h4>
+              <h4>Precio $2.500,00</h4>
               <div>
-                <form action="">
+                <form action="http://localhost:4000/checkout" method="post">
+                  <input
+                    type="hidden"
+                    name="title"
+                    value="Computadora Apple M1"
+                  />
+                  <input type="hidden" name="price" value="2500" />
                   <input
                     type="submit"
                     value="Comprar ahora"
